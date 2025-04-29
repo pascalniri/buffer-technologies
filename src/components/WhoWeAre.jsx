@@ -40,7 +40,7 @@ const WhoWeAre = () => {
         experience from working with leading institutions.
       </p>
 
-      <h3 className="font-semibold mt-5">Locally Grown, Globally Connected</h3>
+      <h3 className="font-semibold mt-5">The Safety Service in IT is our Great Concern!</h3>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {aboutContents.map((content, index) => (

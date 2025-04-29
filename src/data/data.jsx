@@ -97,6 +97,36 @@ const services = [
     title: "Network Infrastructure Design and Implementation",
     desc: "From structured cabling to full network deployment, we ensure your IT environment is fast, secure, and scalable.",
   },
+  {
+    image: "10.jpg",
+    title: "PACS (Picture Archiving and Communication System) Software",
+    desc: "Digitally storing and sharing medical images like X-rays and MRIs for faster access and diagnosis.",
+  },
+  {
+    image: "11.jpeg",
+    title: "HIMS (Hospital Information Management System) ",
+    desc: "Managing hospital operations including patients, billing, pharmacy, and staff in one integrated system.",
+  },
+  {
+    image: "12.jpg",
+    title: "LIMS (Laboratory Information Management System)",
+    desc: "Automating lab processes like sample tracking, testing, and reporting for better accuracy and speed.",
+  },
+  {
+    image: "13.jpg",
+    title: "Blood Bank Management Software",
+    desc: "Tracking donations, tests, and stock to ensure safe and efficient blood management.",
+  },
+  {
+    image: "14.avif",
+    title: "Pharmacy Management Software ",
+    desc: "Managing prescriptions, inventory, and billing to streamline pharmacy operations.",
+  },
+  {
+    image: "15.webp",
+    title: "OPD / Clinic Software",
+    desc: "Simplifying outpatient services like appointments, billing, and patient records.",
+  },
 ];
 
 const clients = [
@@ -121,11 +151,11 @@ const clients = [
 const members = [
   {
     image: "",
-    name: "Eraste Gasasira",
+    name: "Eraste Gasarasi",
     role: "MD (Managing Director) of Buffer Technologies Ltd",
     call: "+250788538982",
-    email: "eraste.gasarasi@gmail.com",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=eraste.gasarasi@gmail.com",
+    email: "eraste.gasarasi@buffertechnologies.com",
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=eraste.gasarasi@buffertechnologies.com",
   },
   {
     image: "",
