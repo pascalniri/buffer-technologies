@@ -27,7 +27,11 @@ const Navbar = () => {
       }`}
     >
       <div className="flex flex-row items-center gap-2">
-        <img src="/logo.png" alt="Logo" className="w-[50px] h-[50px]" />
+        {
+          isScrolled ? 
+          <img src="/logoWhite.svg" alt="Logo" className="w-[200px]" /> :
+          <img src="/logoBlack.svg" alt="Logo" className="w-[200px]" />
+        }
       </div>
 
       {/* Hamburger menu for mobile */}
