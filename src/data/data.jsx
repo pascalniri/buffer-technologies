@@ -150,9 +150,9 @@ const clients = [
 
 const partners = [
   {
-    image: "/Globodox.png",
+    image: "/itaz.jpeg",
     name: "ITAZ Technologies Ltd",
-    link: ''
+    link: 'itaz.com'
   },
   {
     image: "/birlamedisoft.png",
