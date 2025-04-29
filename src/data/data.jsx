@@ -150,7 +150,7 @@ const clients = [
 
 const members = [
   {
-    image: "",
+    image: "/eraste.jpg",
     name: "Eraste Gasarasi",
     role: "MD (Managing Director) of Buffer Technologies Ltd",
     call: "+250788538982",

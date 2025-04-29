@@ -17,7 +17,9 @@ const Leadership = () => {
         {members.map((member) => (
           <div key={member.name} className="shadow-lg p-8 rounded-[10px]">
             <div className="flex flex-col md:flex-row items-center gap-5">
-              <span className="h-[150px] w-[150px] bg-gray-500 rounded-full"></span>
+              <span className="h-[150px] w-[150px] bg-gray-500 rounded-full overflow-hidden">
+                <img src={member.image} alt={member.name} className="w-full h-full object-cover"/>
+              </span>
               <span className="flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start gap-2">
                 <h1 className="font-orbitron font-semibold text-[20px] ">
                   {member.name}
