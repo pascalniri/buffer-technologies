@@ -148,6 +148,20 @@ const clients = [
   },
 ];
 
+const partners = [
+  {
+    image: "/Globodox.png",
+    name: "ITAZ Technologies Ltd",
+    link: ''
+  },
+  {
+    image: "/birlamedisoft.png",
+    name: "Birlamedisoft PVT Ltd",
+    link: 'https://www.birlamedisoft.com/'
+  },
+
+];
+
 const members = [
   {
     image: "/eraste.jpg",
@@ -208,6 +222,7 @@ export {
   aboutContents,
   services,
   clients,
+  partners,
   members,
   socialMedia,
   locations,

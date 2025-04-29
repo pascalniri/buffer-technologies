@@ -13,10 +13,10 @@ const App = () => {
     <div className='font-quicksand'>
       <Navbar />
       <HomePage />
-      <Partners />
       <WhoWeAre />
       <Services />
       <Clients />
+      <Partners />
       <Leadership />
       <Footer />
     </div>

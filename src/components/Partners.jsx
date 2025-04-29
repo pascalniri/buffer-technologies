@@ -1,81 +1,40 @@
+import { Circle } from "lucide-react";
 import React from "react";
+import { partners } from "../data/data";
 
-const Partners = () => {
-  const logos = [
-    {
-      img: "/Globodox.png",
-      link: "https://www.globodox.com/",
-    },
-    {
-      img: "/birlamedisoft.png",
-      link: "https://birlamedisoft.com/",
-    },
-    {
-      img: "/Globodox.png",
-      link: "https://www.globodox.com/",
-    },
-    {
-      img: "/birlamedisoft.png",
-      link: "https://birlamedisoft.com/",
-    },
-  ];
-
+const Clients = () => {
   return (
-    <div className="px-[5%] py-[2rem] overflow-hidden relative">
-      <div className="relative">
-        {/* First scrolling track */}
-        <div className="flex animate-scroll whitespace-nowrap w-[200%]">
-          {logos.map((logo, index) => (
-            <a
-              href={logo.link}
-              target="_blanck"
-              key={`first-${index}`}
-              className="inline-block px-10"
-            >
-              <img
-                src={logo.img}
-                alt="partner logo"
-                className="h-16 object-contain"
-              />
-            </a>
-          ))}
-        </div>
+    <div
+      id="clients"
+      className="bg-gray-200 px-[5%] mx-auto flex flex-col justify-center items-center py-[8rem]"
+    >
+      <span className="animate-bounce flex flex-row gap-2 items-center">
+        <Circle strokeWidth={2} size={15} color="orange" />
+        <p className="font-medium">Partners</p>
+      </span>
+      <h1 className="font-orbitron text-center font-semibold text-[30px] md:text-[40px] mt-3 mb-5">
+        See big Companies We{" "}
+        <span className="text-orange-500">Are working with:</span>
+      </h1>
 
-        {/* Second scrolling track (duplicate for seamless loop) */}
-        <div className="flex animate-scroll whitespace-nowrap w-[200%] absolute top-0 left-[100%]">
-          {logos.map((logo, index) => (
-            <a
-              href={logo.link}
-              target="_blanck"
-              key={`first-${index}`}
-              className="inline-block px-10"
-            >
+      <div className="flex flex-wrap gap-5">
+        {partners.map((partner) => (
+          <a href={partner.link} target="_blanck" key={partner.name} className="flex flex-col w-full h-[300px] md:w-[400px] md:h-[400px]">
+            <span className="h-[200px] w-ful bg-white p-3 rounded-t-[20px] overflow-hidden group">
               <img
-                src={logo.img}
-                alt="partner logo"
-                className="h-16 object-contain"
+                src={partner.image}
+                alt={partner.name}
+                className=" bg-cover bg-center group-hover:scale-110 duration-200"
               />
-            </a>
-          ))}
-        </div>
+            </span>
+            <span className="bg-orange-500 text-white text-center p-2 flex justify-center items-center">
+              {partner.name}
+            </span>
+          </a>
+        ))}
       </div>
-
-      {/* Add this to your global CSS or use a CSS-in-JS solution */}
-      <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-100%);
-          }
-        }
-        .animate-scroll {
-          animation: scroll 50s linear infinite;
-        }
-      `}</style>
     </div>
   );
 };
 
-export default Partners;
+export default Clients;
