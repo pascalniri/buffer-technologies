@@ -152,7 +152,7 @@ const partners = [
   {
     image: "/itaz.jpeg",
     name: "ITAZ Technologies Ltd",
-    link: 'itaz.com'
+    link: 'https://itaz.com'
   },
   {
     image: "/birlamedisoft.png",

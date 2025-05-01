@@ -19,7 +19,7 @@ const Clients = () => {
 
       <div className="flex flex-wrap gap-5">
         {partners.map((partner) => (
-          <a href={partner.link} target="_blanck" key={partner.name} className="flex flex-col w-full h-[300px] md:w-[400px] md:h-[400px]">
+          <a href={partner.link} target="_blanck" key={partner.name} className="flex flex-col w-full  md:w-[400px]">
             <span className="h-[200px] w-ful bg-white p-3 rounded-t-[20px] overflow-hidden flex justify-center items-center group">
               <img
                 src={partner.image}
