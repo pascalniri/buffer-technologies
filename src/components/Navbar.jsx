@@ -26,13 +26,13 @@ const Navbar = () => {
           : "bg-transparent text-white"
       }`}
     >
-      <div className="flex flex-row items-center gap-2">
+      <a href="#home" className="flex flex-row items-center gap-2">
         {isScrolled ? (
           <img src="/logoWhite.svg" alt="Logo" className="w-[100px]" />
         ) : (
           <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
         )}
-      </div>
+      </a >
 
       {/* Hamburger menu for mobile */}
       <button
