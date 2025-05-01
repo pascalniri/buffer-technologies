@@ -10,7 +10,7 @@ const Services = () => {
   const displayedServices = showAll ? services : services.slice(0, initialServiceCount);
 
   return (
-    <div id="services" className="flex flex-col font-quicksand px-[5%] mx-auto pb-[8rem]">
+    <div id="services" className=" flex flex-col font-quicksand px-[5%] mx-auto pb-[8rem]">
       <span className="animate-bounce flex flex-row gap-2 items-center">
         <Circle strokeWidth={2} size={15} color="orange" />
         <p className="font-medium">Services</p>

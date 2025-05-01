@@ -1,11 +1,11 @@
 import React from "react";
 import { navlinks } from "../data/data";
-import { Circle, Menu, X } from "lucide-react"; // Added Menu icon
+import { Circle, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isOpen, setIsOpen] = useState(false); // State for mobile menu
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,21 +27,18 @@ const Navbar = () => {
       }`}
     >
       <div className="flex flex-row items-center gap-2">
-        {
-          isScrolled ? 
-          <a href="#home">
-            <img src="/logoWhite.svg" alt="Logo" className="w-[100px]" />
-          </a> :
-          <a href="#home">
-            <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
-          </a>
-        }
+        {isScrolled ? (
+          <img src="/logoWhite.svg" alt="Logo" className="w-[100px]" />
+        ) : (
+          <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
+        )}
       </div>
 
       {/* Hamburger menu for mobile */}
       <button
-        className="md:hidden focus:outline-none"
+        className="md:hidden focus:outline-none z-50"
         onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
       >
         {isOpen ? (
           <X strokeWidth={2} size={25} color="orange" />
@@ -68,13 +65,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 px-5 bg-white text-black shadow-lg">
-          <ul className="flex flex-col items-start py-4">
+        <div className="md:hidden fixed top-[90px] left-0 w-full bg-white text-black shadow-lg z-40">
+          <ul className="flex flex-col items-start px-5 py-4">
             {navlinks.map((link) => (
               <a
                 key={link.label}
                 href={link.link}
-                className="flex flex-row gap-2 items-center py-2 hover:text-orange-500 transition duration-300"
+                className="flex flex-row gap-2 items-center py-2 hover:text-orange-500 transition duration-300 w-full"
                 onClick={() => setIsOpen(false)}
               >
                 <Circle strokeWidth={1.5} size={15} color="orange" />
