@@ -33,9 +33,9 @@ const Leadership = () => {
                 <Phone strokeWidth={1.5} color="orange" />
                 <p className="font-medium">{member.call}</p>
               </span>
-              <span className="flex items-center gap-3">
+              <span className="flex flex-wrap items-center gap-3">
               <Mail strokeWidth={1.5} color="orange" />
-                <a href={member.link} target="_blanck" className="font-medium hover:text-orange-400 duration-150">{member.email}</a>
+                <a href={member.link} target="_blanck" className="font-medium hover:text-orange-400 duration-150 text-xs md:text-sm">{member.email}</a>
               </span>
             </div>
             <a href={member.link} target="_blanck">

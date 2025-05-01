@@ -172,7 +172,7 @@ const members = [
     link: "https://mail.google.com/mail/?view=cm&fs=1&to=eraste.gasarasi@buffertechnologies.com",
   },
   {
-    image: "",
+    image: "/Emmanuel.jpg",
     name: "Emmanuel Rwagasana",
     role: "COO (Chief Operations Officer) of Buffer Technologies Ltd",
     call: "+250788554478",
