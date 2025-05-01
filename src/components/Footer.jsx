@@ -7,7 +7,9 @@ function Footer() {
     <div className="pt-[5rem] pb-[2rem] px-[5%] mx-auto bg-[#121820] text-white flex flex-col ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5 text-white">
         <div className="flex flex-col justify-start items-start gap-8">
+        <a href="#home">
         <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
+        </a>
 
           <p className="text-justify md:text-left">
             We are a Rwandan-based IT solutions company delivering cutting-edge
@@ -15,7 +17,7 @@ function Footer() {
             and a team of experienced professionals, we bring world-class IT
             services to your doorstep—efficiently, securely, and affordably.
           </p>
-          <span className="flex flex-row gap-4 items-center">
+          {/* <span className="flex flex-row gap-4 items-center">
             {socialMedia.map((media) => (
               <a
                 href={media.link}
@@ -25,7 +27,7 @@ function Footer() {
                 {media.icon}
               </a>
             ))}
-          </span>
+          </span> */}
         </div>
 
         <div className="flex flex-col justify-start items-start gap-3">

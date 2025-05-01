@@ -29,8 +29,12 @@ const Navbar = () => {
       <div className="flex flex-row items-center gap-2">
         {
           isScrolled ? 
-          <img src="/logoWhite.svg" alt="Logo" className="w-[100px]" /> :
-          <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
+          <a href="#home">
+            <img src="/logoWhite.svg" alt="Logo" className="w-[100px]" />
+          </a> :
+          <a href="#home">
+            <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
+          </a>
         }
       </div>
 
