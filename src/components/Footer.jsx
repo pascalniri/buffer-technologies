@@ -7,7 +7,7 @@ function Footer() {
     <div className="pt-[5rem] pb-[2rem] px-[5%] mx-auto bg-[#121820] text-white flex flex-col ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5 text-white">
         <div className="flex flex-col justify-start items-start gap-8">
-        <img src="/logoBlack.svg" alt="Logo" className="w-[200px]" />
+        <img src="/logoBlack.svg" alt="Logo" className="w-[100px]" />
 
           <p className="text-justify md:text-left">
             We are a Rwandan-based IT solutions company delivering cutting-edge
