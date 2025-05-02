@@ -27,8 +27,9 @@ const Clients = () => {
                 className=" bg-cover bg-center group-hover:scale-110 duration-200"
               />
             </span>
-            <span className="bg-orange-500 text-white text-center p-2 flex justify-center items-center">
-              {partner.name}
+            <span className=" bg-orange-500 text-white text-center p-2 flex flex-col justify-center items-center">
+              <h1 className="font-semibold">{partner.name}</h1>
+           <p className="text-[13px]">{partner.desc}</p>
             </span>
           </a>
         ))}

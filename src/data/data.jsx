@@ -152,12 +152,14 @@ const partners = [
   {
     image: "/itaz.jpeg",
     name: "ITAZ Technologies Ltd",
-    link: 'https://itaz.com'
+    link: 'https://itaz.com',
+    desc: 'Manufacturer of Globodox Software of Document Management System.'
   },
   {
     image: "/birlamedisoft.png",
     name: "Birlamedisoft PVT Ltd",
-    link: 'https://www.birlamedisoft.com/'
+    link: 'https://www.birlamedisoft.com/',
+    desc: 'Manufacturer of Healthcare Software.'
   },
 
 ];
