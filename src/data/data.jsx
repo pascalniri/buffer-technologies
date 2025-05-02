@@ -151,7 +151,7 @@ const clients = [
 const partners = [
   {
     image: "/itaz.jpeg",
-    name: "ITAZ Technologies Ltd",
+    name: "ITAZ Technologies Pvt.Ltd",
     link: 'https://www.globodox.com',
     desc: 'The Manufacturer of Globodox a well known worldwide Software of Document Management.',
     web: "www.globodox.com"
@@ -159,7 +159,7 @@ const partners = [
   },
   {
     image: "/birlamedisoft.png",
-    name: "Birlamedisoft PVT Ltd",
+    name: "Birlamedisoft Pvt.Ltd",
     link: 'https://www.birlamedisoft.com/',
     desc: 'The Manufacturer of strong Healthcare Software.',
     web: "www.birlamedisoft.com"
