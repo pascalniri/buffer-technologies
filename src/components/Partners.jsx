@@ -1,6 +1,7 @@
-import { Circle } from "lucide-react";
+import { Circle, MousePointerClick } from "lucide-react";
 import React from "react";
 import { partners } from "../data/data";
+import { CgWebsite } from "react-icons/cg";
 
 const Clients = () => {
   return (
@@ -19,7 +20,12 @@ const Clients = () => {
 
       <div className="flex flex-wrap gap-5">
         {partners.map((partner) => (
-          <a href={partner.link} target="_blanck" key={partner.name} className="flex flex-col w-full  md:w-[400px]">
+          <a
+            href={partner.link}
+            target="_blanck"
+            key={partner.name}
+            className="flex flex-col w-full  md:w-[400px]"
+          >
             <span className="h-[200px] w-ful bg-white p-3 rounded-t-[20px] overflow-hidden flex justify-center items-center group">
               <img
                 src={partner.image}
@@ -27,9 +33,16 @@ const Clients = () => {
                 className=" bg-cover bg-center group-hover:scale-110 duration-200"
               />
             </span>
-            <span className=" bg-orange-500 text-white text-center p-2 flex flex-col justify-center items-center">
+            <span className=" bg-orange-500 text-white text-center p-2 flex h-[160px] flex-col justify-center items-center">
               <h1 className="font-semibold">{partner.name}</h1>
-           <p className="text-[13px]">{partner.desc}</p>
+              <p className="text-[13px]">{partner.desc}</p>
+              <a
+                href={partner.link}
+                target="_blanck"
+                className="flex flex-row items-center gap-2 mt-4 hover:underline transition-all duration-150"
+              >
+                 {partner.web}<MousePointerClick />
+              </a>
             </span>
           </a>
         ))}
