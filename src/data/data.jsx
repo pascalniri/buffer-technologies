@@ -171,7 +171,7 @@ const members = [
   {
     image: "/eraste.jpg",
     name: "Eraste Gasarasi",
-    role: "MD (Managing Director) of Buffer Technologies Ltd",
+    role: "C.E.O (Chief Executive Officer) of Buffer Technologies Ltd",
     call: "+250788538982",
     email: "eraste.gasarasi@buffertechnologies.com",
     link: "https://mail.google.com/mail/?view=cm&fs=1&to=eraste.gasarasi@buffertechnologies.com",
@@ -179,7 +179,7 @@ const members = [
   {
     image: "/Emmanuel.jpg",
     name: "Emmanuel Rwagasana",
-    role: "COO (Chief Operations Officer) of Buffer Technologies Ltd",
+    role: "C.O.O (Chief Operations Officer) of Buffer Technologies Ltd",
     call: "+250788554478",
     email: "emmanuel.rwagasana@buffertechnologies.com",
     link: "https://mail.google.com/mail/?view=cm&fs=1&to=emmanuel.rwagasana@buffertechnologies.com",
