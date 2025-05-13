@@ -174,7 +174,7 @@ const members = [
     role: "C.E.O (Chief Executive Officer) of Buffer Technologies Ltd",
     call: "+250788538982",
     email: "eraste.gasarasi@buffertechnologies.com",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=eraste.gasarasi@buffertechnologies.com",
+    link: "mailto:eraste.gasarasi@buffertechnologies.com",
   },
   {
     image: "/Emmanuel.jpg",
@@ -182,7 +182,7 @@ const members = [
     role: "C.O.O (Chief Operations Officer) of Buffer Technologies Ltd",
     call: "+250788554478",
     email: "emmanuel.rwagasana@buffertechnologies.com",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=emmanuel.rwagasana@buffertechnologies.com",
+    link: "mailto:emmanuel.rwagasana@buffertechnologies.com",
   },
 ];
 
@@ -213,7 +213,7 @@ const locations = [
   {
     icon: <Mail strokeWidth={1.5} />,
     label: "info@buffertechnologies.com",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=info@buffertechnologies.com",
+    link: "mailto:info@buffertechnologies.com",
   },
   {
     icon: <Building2 strokeWidth={1.5} />,
